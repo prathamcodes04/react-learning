@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import Create from './Create'
 import{ BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-            <Routes path="/">
-              <Route path="/" element={<Home />} />
-            </Routes>
+          <Routes path="/">
+            <Route path="/" element={<Home />} />
+            <Route path="/create" element={<Create />} />
+          </Routes>
         </div>
       </div>
     </Router>
