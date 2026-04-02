@@ -17,6 +17,12 @@
       "body": "he pratham here",
       "author": "yoshi",
       "id": "G0Vdn6kfYbk"
+    },
+    {
+      "title": "hello",
+      "body": "prat",
+      "author": "mario",
+      "id": "RJosWVl1RM8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
